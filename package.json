@@ -1,0 +1,52 @@
+{
+  "name": "elfmap-viewer",
+  "displayName": "ELF Inspector — Binary Analyzer",
+  "description": "Inspect ELF32/ELF64 firmware binaries (.elf, .axf): ELF header, program headers, sections, symbols, Flash/RAM totals, and strings.",
+  "version": "0.1.0",
+  "publisher": "MohamedHakeem",
+  "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "elf",
+    "axf",
+    "firmware",
+    "embedded",
+    "readelf",
+    "symbols",
+    "sections",
+    "arm",
+    "risc-v"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "elfviewer.elfView",
+        "displayName": "ELF Inspector",
+        "selector": [
+          { "filenamePattern": "*.elf" },
+          { "filenamePattern": "*.axf" }
+        ],
+        "priority": "default"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0"
+  }
+}
