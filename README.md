@@ -1,4 +1,4 @@
-# ELF Inspector — Binary Analyzer
+# ElfMap — ELF Binary Inspector
 
 A zero-dependency custom editor for VS Code that parses **ELF32** and **ELF64** firmware binaries (`.elf`, `.axf`) into a human-readable interactive view.
 

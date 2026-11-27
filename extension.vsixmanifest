@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Language="en-US" Id="elfmap-viewer" Version="0.1.0" Publisher="MohamedHakeem" />
-    <DisplayName>ELF Inspector — Binary Analyzer</DisplayName>
+    <DisplayName>ElfMap — ELF Binary Inspector</DisplayName>
     <Description xml:space="preserve">Inspect ELF32/ELF64 firmware binaries (.elf, .axf): ELF header, program headers, sections, symbols, Flash/RAM totals, and strings.</Description>
     <Tags>elf,axf,firmware,embedded,readelf,symbols,sections,arm,risc-v</Tags>
     <Categories>Visualization,Other</Categories>

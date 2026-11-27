@@ -1,6 +1,6 @@
 {
   "name": "elfmap-viewer",
-  "displayName": "ELF Inspector — Binary Analyzer",
+  "displayName": "ElfMap — ELF Binary Inspector",
   "description": "Inspect ELF32/ELF64 firmware binaries (.elf, .axf): ELF header, program headers, sections, symbols, Flash/RAM totals, and strings.",
   "version": "0.1.0",
   "publisher": "MohamedHakeem",
